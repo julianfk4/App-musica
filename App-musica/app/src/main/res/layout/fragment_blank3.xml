@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:backgroundTint="#000000"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Botones de contacto -->
+    <Button
+        android:id="@+id/buttonEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3C0101"
+        android:text="Enviar correo"
+        android:textColorHighlight="#981313" />
+
+    <Button
+        android:id="@+id/buttonPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3C0101"
+        android:text="Llamar al centro"
+        android:textColorHighlight="#981313" />
+
+    <Button
+        android:id="@+id/buttonLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3C0101"
+        android:text="Ubicación en Google Maps"
+        android:textColorHighlight="#981313" />
+
+    <Button
+        android:id="@+id/buttonWhatsApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3C0101"
+        android:text="Enviar WhatsApp"
+        android:textColorHighlight="#981313" />
+
+    <!-- Formulario de contacto -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:textColor="#FAF2F2"
+        android:textColorHint="#9A8484" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo electrónico"
+        android:textColor="#FAF2F2"
+        android:textColorHint="#9A8484" />
+
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mensaje"
+        android:textColor="#FAF2F2"
+        android:textColorHint="#9A8484" />
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3C0101"
+        android:text="Enviar mensaje"
+        android:textColorHighlight="#981313" />
+
+</LinearLayout>
